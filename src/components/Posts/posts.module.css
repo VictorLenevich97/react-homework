@@ -1,0 +1,22 @@
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:90px;
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.732);
+    padding: 0 30px;
+    border-radius: 5px;
+}
+
