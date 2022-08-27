@@ -1,0 +1,36 @@
+.header {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px;
+    max-width: 352px;
+    max-height: 358px;
+    margin-bottom: 40px;
+    
+}
+.headerItem {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.headerDate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+    margin-top: 24px;
+}
+.headerText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #313037;
+    margin-top: -10px;
+}
+.line {
+    border-bottom: 1px solid  #DADADA; 
+    transform: matrix(1, 0, 0, -1, 0, 0);
+   }
