@@ -1,24 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import {Posts} from './Posts';
+
 
 function App() {
+  const [isFavorite, setIsFavorite] = useState(false)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <h1 className='title'>Blog</h1>
+    <button className='btn btn_all' onClick={()=>setIsFavorite(false)}>All</button>
+    <button className='btn btn_fav' onClick={()=>setIsFavorite(true)}>Favorites</button>
+    <Posts className='posts' isFavorite={isFavorite}/>
+    </>
   );
 }
 
