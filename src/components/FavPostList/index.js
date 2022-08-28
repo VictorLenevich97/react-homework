@@ -1,0 +1,1 @@
+export {FavPostList} from "./FavPostList"

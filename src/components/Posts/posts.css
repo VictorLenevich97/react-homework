@@ -1,0 +1,44 @@
+.content{
+    max-width: 1120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.post_card{
+    border-bottom: 1px solid black;
+    max-width: 352px;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: white ;
+    cursor: pointer;
+    gap: 70px;
+}
+.button:focus{
+    border-bottom: 1px solid black;    
+}
+.content_button{
+    margin-bottom: 40px;
+}
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.post_text{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.post_image{
+    width: 352px;
+    height: 300px;
+}
