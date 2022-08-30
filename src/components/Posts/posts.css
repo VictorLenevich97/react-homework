@@ -1,0 +1,58 @@
+.container{
+    width: 1120px;
+    margin: 0px auto;
+}
+
+.post_card{
+    max-width: 352px;
+    border-bottom: 1px solid #DADADA;
+    list-style-type: none;
+}
+.title{
+    display: flex;
+    font-size: 56px;
+    font-weight: 700;
+}
+.post_date{
+    display: flex;
+    margin-bottom: 8px;
+}
+.button{
+    display: flex;
+    margin-bottom: 63px;
+    border-bottom: 1px solid #DADADA;
+}
+
+.button1{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: white ;
+    cursor: pointer;
+} 
+.button1:hover{
+    transition: all 0.2s;
+    border-bottom: 1px solid black;    
+}
+.content_button{
+    margin-bottom: 40px;
+}
+.post{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 736px;
+    gap: 32px;
+}
+.post_text{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.post_image{
+    width: 352px;
+    height: 246px;
+    margin-bottom: 24px;
+}

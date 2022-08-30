@@ -1,0 +1,20 @@
+.header{
+    height: 84px;
+    background: #2231AA;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_container{
+    width: 1120px;
+    height: 91px;
+    border-top: 1px solid #DADADA;
+    display: flex;
+    justify-content: space-between;
+    color: #8D8E97;
+    font-size: 16px;
+    align-items: center;
+}
