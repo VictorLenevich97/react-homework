@@ -1,0 +1,68 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 84px;
+    background: #2231AA;
+    position: relative;
+
+}
+.HeaderSvg {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    float: left;
+    position: absolute;
+    left: 1.56%;
+    right: 97.19%;
+    top: 34.52%;
+    bottom: 36.9%;
+    cursor: pointer;
+}
+.HeaderIcon {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.HeaderIn {
+    width: 48px;
+    height: 48px;
+    background: #5360CD;
+    border-radius: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 19px 0px 19px 30px;
+    justify-content: center;
+    cursor: pointer;
+}
+.HeaderName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+    cursor: pointer;
+}
+.HeaderSwitch{
+    height: 30px;
+    width: 30px;
+    margin-left: 1100px;
+    margin-top: 28px;
+
+}
