@@ -1,0 +1,81 @@
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #2231AA;
+}
+
+.header__menu, .header__search {
+height: 84px;
+width: 84px;
+}
+
+.header__userName{
+height: 46px;
+width: 165px;
+padding: 0px 32px;
+}
+
+.header__item{
+    display: flex;
+    align-items: center;
+}
+
+.page__wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.footer__wrapper {
+    margin-top: 72px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 92px;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    background: #DADADA;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+    height: 1px;
+    width: 1120px;
+    position: absolute;
+    top: 0px;
+
+}
+
+.footer__item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.Dark{
+    background-color: rgba(49, 48, 55, 1);
+    color: white;
+  }
+
+  .Light{
+    color: #313037;
+  }
+  
+  .header__changeButton{
+    background: none;
+    margin-right: 30px;
+    height: 40px;
+    padding: 0px 10px;
+    color: white;
+    border: 2px solid white;
+    font-size: medium;
+  }
+
+  .header__changeButton:hover{
+    color: #98989a;
+    border: 2px solid #98989a ;
+  }
