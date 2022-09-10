@@ -1,0 +1,10 @@
+.loading{
+    width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.loading__item{
+    margin-top: 150px;
+    width: 300px;
+}
