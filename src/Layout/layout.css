@@ -1,0 +1,42 @@
+.header{
+    height: 84px;
+    background: #2231AA;
+    
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+
+.Dark{
+    background-color: rgba(49, 48, 55, 1);
+    color: rgb(35, 167, 75);
+  }
+
+  .Light{
+    color: #313037;
+  }
+
+  .button_theme{
+    width: 100px;
+    border-radius: 50px;
+    border: 0px solid
+  }
+
+  .button_theme:hover{
+    cursor: pointer;
+  }
+  .button_theme:active{
+    background: green;
+  }
+
+.footer_container{
+    width: 1120px;
+    height: 91px;
+    border-top: 1px solid #DADADA;
+    display: flex;
+    justify-content: space-between;
+    color: #8D8E97;
+    font-size: 16px;
+    align-items: center;
+}
