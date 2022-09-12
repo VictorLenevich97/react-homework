@@ -1,0 +1,52 @@
+.grid {
+    display: grid;
+    
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.header {
+    margin-right: 20px;
+    max-width: 352px;
+    max-height: 400px;
+    margin-bottom: 80px;
+}
+.headerItem {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.headerDate {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8D8E97;
+    margin-top: 5px;
+}
+.headerText {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 17px;
+    margin-top: -15px;
+    text-align: left;
+    height: 100px;
+}
+.headerName {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: -15px;
+}
+.line {
+    border-bottom: 1px solid  #DADADA; 
+    transform: matrix(1, 0, 0, -1, 0, 0);
+   }
+.headerImg {
+    width: 352px;
+    height: 246px;
+}

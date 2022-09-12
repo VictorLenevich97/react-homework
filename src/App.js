@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { Form } from "./components/Form/Form"
+import { Layout } from "./components/Layout";
+import { PostList, Title, Home } from "./components"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { DarkModeProvider } from "./components/Context/DarkMode";
+import {SINGIN, BLOG} from "./components/Costants/costant"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DarkModeProvider>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path={SINGIN} element={<div><Form /></div>}></Route>
+            <Route path={BLOG} element={<><div>{<Title />}</div><div><PostList /></div></>}></Route>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+    </DarkModeProvider>
   );
 }
 
