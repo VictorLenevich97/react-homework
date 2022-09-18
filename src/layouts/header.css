@@ -1,0 +1,14 @@
+.header_container {
+  background-color: #222;
+  margin-bottom: 40px;
+  padding: 20px 0 20px 40px;
+  display: flex;
+  font-size: 20px;
+}
+.header_item {
+  margin-right: 20px;
+  text-decoration: none;
+}
+.header_btn {
+  margin-left: auto;
+}
