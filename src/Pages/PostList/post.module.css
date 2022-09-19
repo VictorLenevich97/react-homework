@@ -1,0 +1,88 @@
+.grid {
+  display: grid;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.header {
+  margin-right: 20px;
+  max-width: 352px;
+  max-height: 400px;
+  margin-bottom: 80px;
+}
+.headerItem {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.headerDate {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8d8e97;
+  margin-top: 5px;
+}
+.headerText {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 17px;
+  margin-top: -15px;
+  text-align: left;
+  height: 90px;
+}
+.headerName {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin-top: -15px;
+}
+.line {
+  border-bottom: 1px solid #dadada;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.headerImg {
+  width: 352px;
+  height: 246px;
+}
+.headerLink {
+  text-decoration: none;
+  color: rgb(160, 183, 234);
+  font-weight: bold;
+  font-size: 20px;
+  position: relative;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.headerLink:before,
+.headerLink:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  transition: all 0.3s ease;
+}
+.headerLink:before {
+  top: -2.5%;
+  left: -1%;
+  border-top: 2px solid rgb(160, 183, 234);
+  border-left: 2px solid rgb(160, 183, 234);
+}
+.headerLink:after {
+  bottom: -2.5%;
+  right: -1%;
+  border-bottom: 2px solid rgb(160, 183, 234);
+  border-right: 2px solid rgb(160, 183, 234);
+}
+.headerLink:hover:before,
+.headerLink:hover:after {
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s ease;
+}
