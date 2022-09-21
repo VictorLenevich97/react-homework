@@ -1,0 +1,27 @@
+.form{
+    margin: 0px auto;
+    text-align: center;
+    background-color: white;
+}
+.button_logIn{
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: blueviolet;
+    margin: 0px auto;
+
+    color: white;
+}
+
+.accept{
+    color: green;
+    font-size: 30px;
+}
+
+.button_logIn:hover{
+    background-color: green;
+}
+
+.resultAPI{
+    margin-top: 20px;
+    text-align: center;
+}
