@@ -1,0 +1,47 @@
+.mainForm {
+    display: flex;
+    flex-direction: column;
+    
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .inputBar {
+    border: 3px solid rgb(163, 163, 163);
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 6px;
+    padding-left: 16px;
+    height: 40px;
+    background-color: rgb(235, 232, 232);
+    color: #2c2a2a;
+    width: 100%;
+  }
+  
+  .submitBtn {
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 48px;
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .submitBtn.disabled,
+  .submitBtn[disabled]{
+    background-color: #9fb4c2;
+  }
+  
+  .errorNotif {
+    color: red;
+  }
+  
+  .regText {
+    font-weight: 700;
+    font-family: 'Cantarell';
+    font-size: 35px;
+    text-align: center;
+  }
