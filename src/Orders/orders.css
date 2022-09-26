@@ -1,0 +1,56 @@
+.order {
+  list-style-type: none;
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+
+.order_item {
+  min-width: 250px;
+  background-color: rgb(224, 222, 222);
+  padding: 20px 30px;
+  border-radius: 15px;
+}
+
+.order_buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.order_editBtn,
+.order_deleteBtn {
+  height: 30px;
+  width: 100px;
+  background: rgb(251, 205, 76);
+  border: 2px solid rgb(234, 177, 62);
+  border-radius: 10px;
+}
+
+.order_deleteBtn:active,
+.order_editBtn:active {
+  border: 2px solid rgb(142, 96, 3);
+}
+
+.order_deleteBtn:hover,
+.order_editBtn:hover {
+  background-color: rgb(254, 190, 63);
+}
+
+.order_input {
+  background-color: rgb(224, 222, 222);
+  width: 245px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.4);
+  outline: inherit;
+}
+
+.order_select {
+  background-color: rgb(224, 222, 222);
+  width: 100px;
+  height: 22px;
+  outline: 2px solid rgba(127, 127, 127, 0.4);
+}
