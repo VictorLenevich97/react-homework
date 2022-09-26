@@ -1,0 +1,12 @@
+.title {
+    width: 123px;
+    height: 80px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 80px;display: flex;
+    align-items: center;
+    
+    margin-left: 30px;
+}

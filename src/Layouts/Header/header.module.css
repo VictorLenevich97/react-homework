@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    width: 100%;
+    height: 84px;
+    background: #2231AA;
+    position: relative;
+    justify-content: space-between;
+}
+.headerItem{
+    display: flex;
+    flex-direction: row;
+}
+.headerItem2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 15px;
+    height: 84px;
+    gap: 15px;
+}
+.headerSwitch{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    cursor: pointer; 
+   
+}
+.headerIcon {
+    width: 70px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 1px solid #5360CD;
+}
+.headerIcon2 {
+    width: 70px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-left: 1px solid #5360CD;
+    border-right: 1px solid #5360CD;
+}
+.headerImg {
+    width: 70px;
+    height: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #5360CD;
+}
+.svgIonicon {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+.headerImg1 {
+    width: 30px;
+    height: 30px;
+    
+}
+.svgIcon {
+    width: 30px;
+    height: 30px;
+}
+

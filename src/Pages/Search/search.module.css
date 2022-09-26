@@ -1,0 +1,21 @@
+.searchPage {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 30px;
+    width: 1120px;
+    margin-top: 55px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+.searchTitle{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 50px;
+}
+.searchImg {
+    width: 400px;
+   
+}
