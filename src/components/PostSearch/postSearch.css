@@ -1,0 +1,23 @@
+.post{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 736px;
+    gap: 32px;
+    margin: 0px auto;
+    align-items: center;
+}
+.post_text{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+.post_image{
+    width: 352px;
+    height: 246px;
+    margin-bottom: 24px;
+}
+.post_searchResult{
+display: flex;
+}
