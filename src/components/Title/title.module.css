@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap');
+.title{
+    width: 1300px;
+    height: 90px;
+    font-family: Aleo;
+    font-style: Aleo;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
